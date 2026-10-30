@@ -1,0 +1,17 @@
+Package: SPT
+Type: Package
+Title: Source Projection Transfer for Fixed-Horizon Survival Prediction
+Version: 0.1.0
+Authors@R: person("Fangzhou", "Cao", email = "caofzh@mail3.sysu.edu.cn",
+    role = c("aut", "cre"))
+Description: Calibrated source projection transfer for fixed-horizon
+    survival risk prediction. Projects an external logit score into a
+    user-specified target generalized additive model, profiles a bounded
+    source-centered smoothness penalty, and selects soft-label strength
+    by target cross-validation. Includes GAM, Cox, and inverse-probability
+    weighted neural-network source learners.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: mgcv, survival, nnet, stats, utils
+NeedsCompilation: no
